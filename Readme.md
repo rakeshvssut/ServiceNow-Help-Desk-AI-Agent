@@ -46,8 +46,8 @@ Follow these steps to set up the project locally.
 
 ### 2. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd atos_agent
+git clone https://github.com/rakeshvssut/ServiceNow-Help-Desk-AI-Agent.git
+cd ServiceNow-Help-Desk-AI-Agent
 ```
 
 ### 3. Configure ServiceNow
