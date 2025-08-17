@@ -17,22 +17,11 @@ An intelligent, AI-powered agent designed to automate the triage and routing of 
 
 ## 🏗️ Architecture Flowchart
 
-```mermaid
-graph TD
-    A[Start: Ticket Assigned to ATOS Agent 🤖] --> B{Agent Triggered via Webhook};
-    B --> C[1. Fetch Live Group Data <br/>(On Startup, from ServiceNow)];
-    C --> D[2. Build In-Memory Knowledge Base <br/>(Vector Store)];
-    B --> E[3. Fetch Ticket Details <br/>(From correct table: INC, RITM, etc.)];
-    E --> F[4. Find Candidate Teams <br/>(Search In-Memory Knowledge Base)];
-    F --> G[5. Analyze & Decide <br/>(Send data to LLM)];
-    G --> H{6. Confidence Check};
-    H -- High Confidence --> I[✅ Route to Specialist Team];
-    H -- Low/Medium Confidence --> J[⚠️ Escalate to Human Desk];
-    I --> K[End: Process Complete];
-    J --> K;
-```
 
----
+Here’s how the ATOS Agent processes and routes tickets:
+
+![ATOS Agent Flowchart](docs/flowchart.png)
+
 
 ## 🛠️ Technology Stack
 
