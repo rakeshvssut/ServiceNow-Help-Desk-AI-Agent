@@ -1,0 +1,13 @@
+# Ignore build and log folders
+build/
+logs/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore environment folders
+snow_venv/
+.env/
+
+# Ignore VS Code settings
+.vscode/

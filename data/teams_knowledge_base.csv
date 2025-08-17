@@ -1,0 +1,4 @@
+group_name,group_id,scope_description,keywords
+Network Security Team,990ff5758353e61072b36750ceaad3d2,"Responsible for managing firewalls, VPN access, and intrusion detection. Handles firewall rule changes, investigates suspicious network traffic, and resolves VPN connectivity issues.","firewall,vpn,palo alto,cisco,connectivity,blocked port"
+Database Administration,2fe047fd8397e61072b36750ceaad39e,"Manages all production and development databases, including Oracle and MSSQL. Handles performance tuning, backups, restores, and user access control to database schemas.","database,db,oracle,mssql,sql,query performance,backup"
+ATOS Service Desk,dae8fd3583dfa61072b36750ceaad322,A generalist IT service desk for manual ticket triage and resolution when the specialist team is unknown.,"manual review,escalation,unknown issue"

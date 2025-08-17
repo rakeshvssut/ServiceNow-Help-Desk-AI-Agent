@@ -1,0 +1,7 @@
+langgraph
+langchain
+langchain_community
+fastapi
+uvicorn[standard]
+pysnow
+chromadb
